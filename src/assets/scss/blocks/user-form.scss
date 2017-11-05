@@ -1,0 +1,35 @@
+.user-form {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+  margin-left: 90px;
+  padding: 0;
+  width: 120px;
+  list-style: none;
+
+  @media screen and (max-width: 64em) {
+    display: none;
+  }
+}
+
+.user-form__link {
+  @include text-style-base(16px, 400, $base-menu-color);
+  text-decoration: none;
+  transition: all 1s;
+
+  &:hover {
+    border-bottom: 1px solid $base-menu-color;
+  }
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid $base-menu-color;
+  }
+
+  &:active {
+    color: darken($base-menu-color, 50);
+    border-bottom: none;
+    transition: all 1s;
+  }
+}

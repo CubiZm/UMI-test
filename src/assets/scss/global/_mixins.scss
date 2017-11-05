@@ -1,0 +1,19 @@
+@mixin link-decoration($color) {
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin text-style-base($size, $weight, $color) {
+  font: {
+    size: $size;
+    weight: $weight;
+  }
+
+  color: $color;
+}
+
+@mixin text-null {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
