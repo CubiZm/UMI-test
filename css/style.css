@@ -511,7 +511,7 @@ body {
       margin-bottom: 2.5rem; }
 
 .job-benefits {
-  padding: 12rem 16.6rem 12rem 13.5rem;
+  padding: 12rem 18.7rem 12rem 13.5rem;
   background-color: #F7F5FA; }
   .job-benefits__main-title {
     font-size: 4rem;
@@ -519,7 +519,7 @@ body {
     line-height: 5rem;
     color: #000;
     margin: 0;
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     margin-bottom: 6rem;
     font-family: "DINPro", Arial, sans-serif;
     text-align: center;
@@ -635,7 +635,7 @@ body {
       content: counters(item, ".") " ";
       position: relative;
       top: -0.2rem;
-      right: 4rem;
+      right: 2.8rem;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
