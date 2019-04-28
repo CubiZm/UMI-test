@@ -1,5 +1,5 @@
 .job-benefits {
-  padding: 12rem 16.6rem 12rem 13.5rem;
+  padding: 12rem 18.7rem 12rem 13.5rem;
   background-color: #F7F5FA;
 
   @media(max-width: 768px) {
@@ -9,7 +9,7 @@
   &__main-title {
     @include text-style-base(4rem, 5rem, 400, #000);
     margin: 0;
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     margin-bottom: 6rem;
     font-family: $base-title-font;
     text-align: center;
