@@ -1,15 +1,15 @@
-@import "vendors/foundation";
+@import "vendors/normalize";
 
+@import "global/fonts";
 @import "global/_variables";
 @import "global/_mixins";
 @import "global/base";
+@import "global/button";
 
 @import "blocks/header";
-@import "blocks/menu";
-@import "blocks/user-form";
+@import "blocks/ticket-form";
 @import "blocks/advantages";
-@import "blocks/promo";
-@import "blocks/partners";
-@import "blocks/gallery";
-@import "blocks/footer";
-@import "blocks/social";
+@import "blocks/resemble";
+@import "blocks/job-benefits";
+@import "blocks/about-yourself";
+@import "blocks/form";

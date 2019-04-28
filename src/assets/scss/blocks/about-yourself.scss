@@ -1,0 +1,13 @@
+.about-yourself {
+  padding: 10rem 0 12rem;
+  background-color: #161616;
+
+  &__title {
+    @include text-style-base(4rem, 5.2rem, 400, #FFF);
+    margin: 0;
+    margin-bottom: 6rem;
+    font-family: $fs-title;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+}

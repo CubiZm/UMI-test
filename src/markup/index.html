@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unitedtraders</title>
+  <title>Welcome to UMI</title>
 
-  <meta name="title" content="">
-  <meta name="description" content="" />
+  <meta name="title" content="Welcome to UMI">
+  <meta name="description" content="Welcome to UMI" />
   <meta name="keywords" content="" />
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|PT+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 
   <!-- favicons -->
@@ -71,179 +70,138 @@
   <!-- / svg library -->
 
   <header class="header">
-    <div class="grid-container">
-      <div class="wrapper">
-        <a href="/">
-          <div class="logo">
-            <picture class="picture">
-              <source srcset="images/logo@2x.png 2x, images/logo.png 1x" />
-              <img class="header__logo" src="images/logo.png" alt="Logo" width="249" height="58">
-            </picture>
-          </div>
-        </a>
+    <h1 class="header__title">
+      Ты готов стать профессионалом?
+    </h1>
 
-        <button type="button" class="menu-button menu-button--open">
-          <!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg> -->
-        </button>
+    <p class="header__description">
+      Мы ищем <a href="#" class="header__link">талантов</a> и <a href="#" class="header__link">саппортов</a> в команду. Решите на какую категорию вы претендуете.
+    </p>
 
-        <nav class="menu">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Products</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">News & Events</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Support</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Contacts</a>
-          </li>
-        </nav>
-
-        <ul class="user-form">
-          <li class="user-form__item">
-            <a class="user-form__link" href="#">Login</a>
-          </li>
-          <li class="user-form__item">
-            <a class="user-form__link" href="#">Buy Now</a>
-          </li>
-        </ul>
-      </div>
-      <h1 class="header__title">We solve<br>your problems</h1>
-      <p class="header__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec accumsan velit.<br>  Ut gravida id sem id sodales. Aenean quis enim dui. Vestibulum ullamcorper vel urna quis congue.</p>
+    <div class="header__form ticket-form">
+      <a href="#" class="button ticket-form__link">
+        <span class="ticket-form__icon">+</span>
+        Заполнить анкету
+      </a>
     </div>
   </header>
 
   <main class="main">
-    <section class="advantages">
-      <div class="grid-container">
+    <div class="advantages">
 
-        <h2 class="advantages__title">Etiam ac nisl ac quam sodales scelerisque elementum quis purus.</h2>
-        <div class="wrapper wrapper--content">
-          <article class="advantages__item">
-            <div class="advantages__img-wrap">
-              <img class="advantages__icon" src="images/icons/icon-microscope.png" alt="icon">
-            </div>
-            <h3 class="advantages__topic">Donec efficitur molestie </h3>
-            <p class="advantages__text">Nulla pretium nunc in nulla placerat, sit amet porttitor enim ullamcorper. Curabitur ex erat, euismod ac vestibulum vel, viverra non lorem.</p>
-            <a class="advantages__link" href="#">Learn More</a>
-          </article>
-          <article class="advantages__item">
-            <div class="advantages__img-wrap">
-              <img class="advantages__icon" src="images/icons/icon-tower.png" alt="icon">
-            </div>
-            <h3 class="advantages__topic">Mauris interdum venenatis</h3>
-            <p class="advantages__text">Vivamus cursus ante eu orci rutrum, vitae viverra ante dapibus. Vivamus porta molestie turpis, quis elementum nisi egestas eget.</p>
-            <a class="advantages__link" href="#">Learn More</a>
-          </article>
-          <article class="advantages__item">
-            <div class="advantages__img-wrap">
-              <img class="advantages__icon" src="images/icons/icon-house.png" alt="icon">
-            </div>
-            <h3 class="advantages__topic">Cras sit amet</h3>
-            <p class="advantages__text">Fusce suscipit, ante at imperdiet vehicula, ex augue feugiat enim, sed faucibus sem tortor quis turpis. Mauris lacinia neque id augue efficitur, ut feugiat massa efficitur.</p>
-            <a class="advantages__link" href="#">Learn More</a>
-          </article>
-        </div>
+      <div class="advantages__blocks">
+        <section class="advantages__item">
+          <h2 class="advantages__title">Прокачиваем мир</h2>
+          <p class="advantages__text">Вы хотите сделать мир лучше и не готовы ждать всю жизнь, чтобы начать это делать?</p>
+        </section>
+
+        <section class="advantages__item">
+          <h2 class="advantages__title">Мотивируем себя</h2>
+          <p class="advantages__text">У вас есть собственная цель и вы не боитесь много работать, чтобы её достичь?</p>
+        </section>
+
+        <section class="advantages__item">
+          <h2 class="advantages__title">Используем лучшее</h2>
+          <p class="advantages__text">Вы способны применять разные подходы для достижения своих целей?</p>
+        </section>
+
+        <section class="advantages__item">
+          <h2 class="advantages__title">Относимся с пониманием</h2>
+          <p class="advantages__text">Вы не обвиняете других в свои неудачах и способны воспринимать критику?</p>
+        </section>
       </div>
-    </section>
+    </div>
 
-    <section class="promo">
-      <div class="grid-container">
-        <h2 class="promo__title">Lorem ipsum</h2>
-        <p class="promo__description">nteger bibendum turpis sit amet pretium commodo. Cras justo elit, dapibus at viverra non, dapibus vitae est. Morbi facilisis mi non iaculis porttitor. Phasellus a nibh a lacus dignissim pharetra. Vivamus ullamcorper finibus mauris, sit amet volutpat enim sollicitudin sed.</p>
+    <div class="resemble">
+      <h2 class="resemble__title">Мы похожи!</h2>
+      <p>
+        Не следует, однако забывать, что укрепление и развитие структуры представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры способствует подготовки и реализации форм развития.
+      </p>
+      <p>
+        Разнообразный и богатый опыт начало повседневной работы по формированию позиции способствует подготовки и реализации дальнейших направлений развития. Равным образом дальнейшее развитие различных форм деятельности позволяет оценить значение соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Разнообразный и богатый опыт укрепление и развитие структуры позволяет оценить значение дальнейших направлений развития. Повседневная практика показывает, что консультация с широким активом представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт укрепление и развитие структуры влечет за собой процесс внедрения и модернизации соответствующий условий активизации.
+      </p>
+    </div>
 
-        <div class="wrapper wrapper--promo-content">
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-document.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Proin felis eros</h3>
-            <p class="promo__text">Iverra sed eros id, eleifend maximus tortor</p>
-          </article>
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-time.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Suspendisse potenti</h3>
-            <p class="promo__text">Vestibulum mi risus, aliquam vitae efficitur quis</p>
-          </article>
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-dir.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Fusce pretium enim</h3>
-            <p class="promo__text">Quisque at dui nunc. Curabitur sodales, turpis at luctus suscipit, nisl leo dignissim turpis</p>
-          </article>
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-safe.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Vivamus urna eros</h3>
-            <p class="promo__text">Fusce facilisis nunc a urna lacinia, nec sagittis felis efficitur. Phasellus commodo porttitor odio</p>
-          </article>
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-note.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Maecenas congue nisi</h3>
-            <p class="promo__text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vulputate arcu nisi</p>
-          </article>
-          <article class="promo__item">
-            <div class="promo__img-wrap">
-              <img class="promo__icon" src="images/icons/icon-algoritm.png" alt="icon">
-            </div>
-            <h3 class="promo__topic">Nullam purus velit</h3>
-            <p class="promo__text">Praesent ac turpis sit amet ex euismod congue vitae sit amet risus</p>
-          </article>
-        </div>
-        <a class="promo__link" href="#">View All Our Products</a>
+    <div class="job-benefits">
+      <h2 class="job-benefits__main-title">Приемущества работы с нами</h2>
+
+      <div class="job-benefits__item-wrap">
+
+        <section class="job-benefits__item">
+          <img src="images/icons/wallet-icon.svg" alt="icon" class="job-benefits__icon">
+          <h2 class="job-benefits__title">Делимся оптом и навыками</h2>
+          <p class="job-benefits__text">
+            Мы обучаем коллег всему, что знаем сами. Наш опыт уникален и проверен временем, а команда постоянно совершенствует свои знания и навыки.
+          </p>
+        </section>
+
+        <section class="job-benefits__item">
+          <img src="images/icons/wallet-icon.svg" alt="icon" class="job-benefits__icon">
+          <h2 class="job-benefits__title">Стабильная зарплата</h2>
+          <p class="job-benefits__text">
+            Вы без задержек получаете официальную зарплату. Также мы оплачиваем больничные и даем возможность брать оплачиваемый отпуск до 4 недель в год.
+          </p>
+        </section>
+
+        <section class="job-benefits__item">
+          <img src="images/icons/wallet-icon.svg" alt="icon" class="job-benefits__icon">
+          <h2 class="job-benefits__title">Гибкий график</h2>
+          <p class="job-benefits__text">
+            Мы умеем работать с теми, кто еще не закончил получать образование. Вы можете работать неполный рабочий день, брать отгулы на время сессии и диплома.
+          </p>
+        </section>
       </div>
-    </section>
+    </div>
 
-    <section class="partners">
-      <div class="grid-container">
-        <h2 class="partners__title">Wordlwide recognition</h2>
-        <p class="partners__description">Integer bibendum turpis sit amet pretium commodo. Cras justo elit, dapibus at viverra non, dapibus vitae est.</p>
+    <div class="about-yourself">
 
-        <p class="partners__text">Fusce pretium enim sit amet elementum eleifend. Quisque at dui nunc. Curabitur sodales, turpis at luctus suscipit, nisl leo dignissim turpis, quis blandit justo nulla sed nisi. Vivamus urna eros, malesuada non massa sed, vestibulum maximus dui. Fusce facilisis nunc a urna lacinia, nec sagittis felis efficitur. Phasellus commodo porttitor odio, eu commodo nisi vehicula ut. Maecenas congue nisi lorem, et maximus ante vestibulum eu. Vivamus non imperdiet ex.</p>
+      <h2 class="about-yourself__title">Теперь расскажите о себе</h2>
 
-        <div class="gallery">
-          <img class="gallery__img" src="images/firm-logo-1.png" alt="partners-logo">
-          <img class="gallery__img" src="images/firm-logo-2.png" alt="partners-logo">
-          <img class="gallery__img" src="images/firm-logo-3.png" alt="partners-logo">
-          <img class="gallery__img" src="images/firm-logo-4.png" alt="partners-logo">
-          <img class="gallery__img" src="images/firm-logo-5.png" alt="partners-logo">
-        </div>
-      </div>
-    </section>
+      <form action="" method="post" class="about-yourself__form form">
+        <fieldset class="form__field">
+          <p class="form__item">
+            <label for="name" class="form__label">Фамилия и имя</label>
+            <input id="name" type="text" class="form__input form__validate"
+                   placeholder="Сидоров Александр"
+                   required
+                   >
+          </p>
+
+          <p class="form__item">
+            <label for="email" class="form__label">Электронная почта</label>
+            <input id="email" type="email" class="form__input"
+                   placeholder="Sidorov@yandex.ru"
+                   >
+          </p>
+
+          <p class="form__item">
+            <label for="phone" class="form__label">Телефон</label>
+            <input id="phone" type="tel" class="form__input form__validate"
+                   placeholder="+7 (999)-328-14-20"
+                   minlength="6"
+                   maxlength="18"
+                   required
+                   pattern="\+?[0-9\s\-\(\)]+"
+                   >
+          </p>
+
+          <p class="form__item">
+            <label for="activity" class="form__label">
+              Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?
+            </label>
+            <textarea id="activity" class="form__textarea"
+                      cols="55"
+                      rows="2"
+                      placeholder="">Свой проект по созданию универсальной инфраструктуры строительства</textarea>
+          </p>
+        </fieldset>
+
+        <button class="button form__button submit">Отправить</button>
+      </form>
+    </div>
   </main>
 
-  <footer class="footer">
-    <div class="grid-container">
-      <nav class="menu menu--footer">
-        <li class="menu__item menu__item--footer">
-          <a class="menu__link" href="#">Privacy policy</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">About us</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Support</a>
-        </li>
-      </nav>
-
-      <div class="social">
-        <a href="#" class="social__link social__link--fb">facebook</a>
-        <a href="#" class="social__link social__link--twt">twitter</a>
-        <a href="#" class="social__link social__link--instagram">instagram</a>
-      </div>
-
-      <p class="copyright">Copyright © 1998 – 2016</p>
-    </div>
-  </footer>
-
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

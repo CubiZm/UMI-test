@@ -1,34 +1,44 @@
 .header {
-  background: url('../images/bg-header.jpg') no-repeat;
-  background-size: cover;
-}
+  margin-top: 16.5rem;
+  margin-bottom: 12.6rem;
 
-.header__logo {
-  margin-top: 24px;
-}
+  @media(max-width: 768px) {
+    margin-top: 10.5rem;
+    margin-bottom: 8.6rem;
+  }
 
-.header__title {
-  @include text-style-base(48px, 300, $base-menu-color);
-  font-family: $base-title-font;
-  line-height: 48px;
-  text-transform: uppercase;
-  letter-spacing: 1.44px;
-  text-align: center;
+  &__title {
+    @include text-style-base($fs-title, 5.4rem, 400, $dark-grey);
+    font-family: $base-title-font;
+    margin-bottom: 2.4rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
 
-  margin: 0;
-  padding: 0;
+  &__description {
+    @include text-style-base($fs-base, 2.6rem, 400, #4A4556);
+    margin: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
 
-  margin-top: 100px;
-  margin-bottom: 70px;
-}
+  &__link {
+    color: $medium-orange;
+    text-decoration: none;
+    background-color: transparent;
 
-.header__description {
-  @include text-style-base(18px, 400, $base-menu-color);
-  line-height: 30px;
-  text-align: center;
+    &:hover,
+    &:focus {
+      color: darken($medium-orange, 8%);
+      text-decoration: underline darken($medium-orange, 8%);
+    }
 
-  margin: 0;
-  padding: 0;
+    &:active {
+      color: darken($medium-orange, 12%);
+    }
 
-  padding-bottom: 96px;
+    &:visited {
+      color: darken($medium-orange, 17%);
+    }
+  }
 }

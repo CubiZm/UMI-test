@@ -3,12 +3,12 @@
   color: $color;
 }
 
-@mixin text-style-base($size, $weight, $color) {
+@mixin text-style-base($size, $lh, $weight, $color) {
   font: {
     size: $size;
     weight: $weight;
   }
-
+  line-height: $lh;
   color: $color;
 }
 

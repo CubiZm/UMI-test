@@ -1,29 +1,30 @@
 {
-  "name": "unitedtreders",
+  "name": "UMI",
   "private": false,
   "description": "",
   "author": "Lena Karyakina",
   "repository": {
     "type": "git",
-    "url": "git://github.com/CubiZm/unitedtreders.git"
+    "url": "git://github.com/CubiZm/UMI.git"
   },
   "devDependencies": {
-    "autoprefixer": "6.3.6",
-    "browser-sync": "2.12.10",
+    "autoprefixer": "9.5.1",
+    "browser-sync": "2.26.5",
     "css-mqpacker": "^5.0.1",
     "del": "^2.2.1",
     "editorconfig-tools": "0.1.1",
-    "gulp": "^3.9.1",
-    "gulp-csso": "^2.0.0",
-    "gulp-flatten": "^0.3.0",
-    "gulp-imagemin": "^3.0.1",
-    "gulp-plumber": "1.1.0",
-    "gulp-postcss": "6.1.1",
-    "gulp-sass": "3.1.0",
-    "gulp-svgmin": "^1.2.2",
-    "gulp-svgstore": "^6.0.0",
-    "rename": "^1.0.3",
-    "run-sequence": "^1.2.1"
+    "gulp": "3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-svgstore": "^7.0.1",
+    "rename": "^1.0.4",
+    "run-sequence": "^2.2.1"
   },
   "scripts": {
     "test": "editorconfig-tools check *",
@@ -31,9 +32,9 @@
     "start": "npm run build && gulp serve"
   },
   "engines": {
-    "node": "5.11"
+    "node": "8.15"
   },
   "dependencies": {
-    "normalize.css": "^4.1.1"
+    "normalize.css": "^8.0.1"
   }
 }

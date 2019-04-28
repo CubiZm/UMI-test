@@ -1,0 +1,89 @@
+.job-benefits {
+  padding: 12rem 16.6rem 12rem 13.5rem;
+  background-color: #F7F5FA;
+
+  @media(max-width: 768px) {
+    padding: 12rem 4rem 13.5rem;
+  }
+
+  &__main-title {
+    @include text-style-base(4rem, 5rem, 400, #000);
+    margin: 0;
+    margin-top: 0.6rem;
+    margin-bottom: 6rem;
+    font-family: $base-title-font;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  &__item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media(min-width: 1600px) {
+      justify-content: space-between;
+    }
+
+    @media(max-width: 1419px) {
+      justify-content: space-between;
+    }
+
+    @media(max-width: 768px) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__item {
+    width: 32.6rem;
+    padding-right: 2.6rem;
+
+    &:not(:last-child) {
+      margin-right: 7rem;
+    }
+
+    @media(max-width: 1366px) {
+
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 3rem;
+      }
+    }
+
+    @media(max-width: 768px) {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+   &__icon {
+     display: block;
+     margin-bottom: 3.3rem;
+     width: 5.2rem;
+     height: 5.2rem;
+   }
+
+  &__title {
+    @include text-style-base(2rem, 2.5rem, 500, #000);
+    position: relative;
+    margin: 0;
+    margin-bottom: 5rem;
+    font-family: $base-title-font;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 4.8rem;
+      width: 2.4rem;
+      height: 0.2rem;
+      background-color: $medium-orange;
+    }
+  }
+
+  &__text {
+    @include text-style-base($fs-base, 2.6rem, 400, #4E4D53);
+  }
+}

@@ -1,0 +1,26 @@
+.resemble {
+  margin: 0 auto;
+  padding: 8rem 0 10rem;
+  max-width: 77.3rem;
+
+  @media(max-width: 1366px) {
+    padding: 8rem 4rem 10rem;
+  }
+
+  &__title {
+    @include text-style-base($fs-title, 6rem, 400, $dark-grey);
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: $base-title-font;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    @include text-style-base($fs-base, 2.6rem, 400, #4E4D53);
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+  }
+}

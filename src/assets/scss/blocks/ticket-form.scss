@@ -1,0 +1,41 @@
+.ticket-form {
+  text-align: center;
+
+  &__link {
+    @include text-style-base($fs-base, 2rem, 600, $dark-grey);
+    position: relative;
+    font-family: $base-title-font;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 23.6rem;
+    z-index: 1;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: all ease 0.8s;
+
+
+    &:hover,
+    &:focus {
+      box-shadow: inset 250px 0 0 0 #F9F9F9;
+      transition: all ease 1.2s;
+    }
+  }
+
+  &__icon {
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    left: -0.5rem;
+    display: inline-block;
+    width: 5.4rem;
+    height: 5.4rem;
+    background-color: #F9F9F9;
+    background-image: url("../../images/icons/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.4rem 1.4rem;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+  }
+}

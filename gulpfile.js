@@ -37,7 +37,7 @@ var path = {
     styles: config.src + "scss/**/*.scss",
     sass: config.src + "scss/style.scss",
     js: config.root + "js/*.js",
-    icons: config.src + "images/icons/*.png",
+    icons: config.src + "images/icons/*.{png,svg}",
     favicons: config.src + "images/favicons/*.png",
     fonts: config.src + "fonts/**/*.{woff,woff2}"
   }
@@ -54,7 +54,8 @@ gulp.task("style", function() {
           "last 2 Chrome versions",
           "last 2 Firefox versions",
           "last 2 Opera versions",
-          "last 2 Edge versions"
+          "last 2 Edge versions",
+          "IE 11"
         ]
       }),
       mqpacker({
