@@ -1,6 +1,6 @@
 # UMI Pages
 
-[Онлайн-версия](https://cubizm.github.io/unitedtreders/index.html)
+[Онлайн-версия](https://cubizm.github.io/UMI-test/index.html)
 
 ## Start project
 `npm i && npm start`  — устанавливает зависимости и запускает  проект на 3000 порту.
